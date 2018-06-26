@@ -1,0 +1,108 @@
+body {
+  font-size: 0.9rem;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f8f8f8; }
+
+section#navbar .container .row .social .nav a {
+  text-decoration: none;
+  color: #4e4e4e; }
+  section#navbar .container .row .social .nav a .fab {
+    font-size: 1.3rem; }
+  section#navbar .container .row .social .nav a .fas {
+    font-size: 1.3rem; }
+
+section#navbar .container .main-menu .menu .nav-link {
+  color: #4e4e4e; }
+
+section#navbar .container .main-menu .menu .nav-link:hover {
+  color: #fa921a; }
+
+div#slide-show .container-fluid .row {
+  position: relative; }
+  div#slide-show .container-fluid .row .slide-center {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%); }
+    div#slide-show .container-fluid .row .slide-center .img-slide .img {
+      height: 38rem;
+      background-position: center;
+      background-size: cover;
+      width: auto; }
+
+div#content {
+  margin-top: 47rem; }
+  div#content .container .row .post {
+    box-shadow: 0rem 0rem 1rem 0.1rem #ececec; }
+    div#content .container .row .post .post-content {
+      position: relative; }
+      div#content .container .row .post .post-content .info-post {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        width: 80%;
+        height: auto;
+        transform: translate(-50%, -50%); }
+  div#content .container .sub-post .sub-post-content {
+    position: relative;
+    height: 24rem;
+    box-shadow: 0rem 0rem 1rem 0.1rem #ececec; }
+    div#content .container .sub-post .sub-post-content .sub-info-post {
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      width: 80%;
+      height: auto;
+      transform: translate(-50%, -50%); }
+      div#content .container .sub-post .sub-post-content .sub-info-post .title-info-sub-post {
+        font-size: 0.8rem; }
+      div#content .container .sub-post .sub-post-content .sub-info-post .content-info-sub-post {
+        font-size: 1.2rem; }
+      div#content .container .sub-post .sub-post-content .sub-info-post .date-info-sub-post {
+        font-size: 0.7rem; }
+  div#content .container .row .btn-light {
+    background-color: white !important;
+    box-shadow: 0rem 0rem 1rem 0.1rem #ececec;
+    font-size: 0.9rem; }
+  div#content .container .side-bar .row .social .nav-link .fa-facebook-f {
+    background-color: #b1b1b1;
+    padding: 1.5rem 1.75rem 1.5rem 1.75rem;
+    border-radius: 0.5rem;
+    color: black; }
+  div#content .container .side-bar .row .social .nav-link .fa-twitter {
+    background-color: #b1b1b1;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 0.5rem;
+    color: black; }
+  div#content .container .side-bar .row .social .nav-link .fa-instagram {
+    background-color: #b1b1b1;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 0.5rem;
+    color: black; }
+  div#content .container .side-bar .row .social .nav-link .fa-pinterest {
+    background-color: #b1b1b1;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 0.5rem;
+    color: black; }
+  div#content .container .side-bar .row .social .nav-link .fa-tumblr {
+    background-color: #b1b1b1;
+    padding: 1.5rem 1.7rem 1.5rem 1.7rem;
+    border-radius: 0.5rem;
+    color: black; }
+  div#content .container .side-bar .row .social .nav-link .fa-facebook-f:hover {
+    background-color: black;
+    color: white; }
+  div#content .container .side-bar .row .social .nav-link .fa-twitter:hover {
+    background-color: black;
+    color: white; }
+  div#content .container .side-bar .row .social .nav-link .fa-instagram:hover {
+    background-color: black;
+    color: white; }
+  div#content .container .side-bar .row .social .nav-link .fa-pinterest:hover {
+    background-color: black;
+    color: white; }
+  div#content .container .side-bar .row .social .nav-link .fa-tumblr:hover {
+    background-color: black;
+    color: white; }

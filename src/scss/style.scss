@@ -1,0 +1,182 @@
+$icon-color:#4e4e4e;
+$hover: rgb(250, 146, 26);
+$background: #f8f8f8;
+$shadow: rgb(236, 236, 236);
+$bg-social:  rgb(177, 177, 177);
+
+body {
+    font-size: 0.9rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: $background;
+}
+
+section#navbar {
+    .container {
+        .row {
+            .social {
+                .nav {
+                    a {
+                        text-decoration: none;
+                        color: $icon-color;
+                        .fab {
+                            font-size: 1.3rem;
+                        }
+                        .fas {
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+            }
+        }
+        .main-menu {
+            .menu {
+                .nav-link {
+                    color: $icon-color;
+                }
+                .nav-link:hover {
+                    color: $hover;
+                }
+            }
+        }
+
+    }
+}
+
+div#slide-show {
+    .container-fluid {    
+     .row {
+        position: relative;
+        .slide-center {
+            position: absolute;
+            width: 100%; 
+            height: auto;
+           left:50%;
+           top: 0;     
+           transform: translate(-50%);
+            .img-slide {
+                .img {
+                    height: 38rem;
+                    background-position: center;
+                    background-size: cover;
+                    width: auto;
+                }
+            }
+        }
+     }
+    }
+}
+
+div#content {
+    margin-top: 47rem;
+    .container {
+        .row {
+            .post {
+                box-shadow: 0rem 0rem 1rem 0.1rem $shadow;
+                
+                .post-content {
+                    position: relative;
+                    .info-post {
+                        position: absolute;
+                        top: 90%;
+                        left: 50%;
+                        width: 80%;
+                        height: auto;
+                        transform: translate(-50%,-50%);
+                    }
+                }
+            }
+        }
+        .sub-post {
+            .sub-post-content {
+                position: relative;
+                height: 24rem;
+                box-shadow: 0rem 0rem 1rem 0.1rem $shadow;
+                .sub-info-post {
+                    position: absolute;
+                    top: 75%;
+                    left: 50%;
+                    width: 80%;
+                    height: auto;
+                    transform: translate(-50%,-50%);
+                    .title-info-sub-post {
+                        font-size: 0.8rem;
+                    }
+                    .content-info-sub-post {
+                        font-size: 1.2rem;
+                    }
+                    .date-info-sub-post {
+                        font-size: 0.7rem;
+                    }
+                }
+            }
+        }
+        .row {
+            .btn-light {
+                background-color: white !important;
+                box-shadow: 0rem 0rem 1rem 0.1rem $shadow;
+                font-size: 0.9rem;                
+            }
+        }
+        .side-bar {
+            .row {
+                .social {
+                    .nav-link {
+                     .fa-facebook-f {
+                         background-color: $bg-social;
+                         padding: 1.5rem 1.75rem 1.5rem 1.75rem;
+                         border-radius: 0.5rem;
+                         color: black;
+                     }
+                     .fa-twitter {
+                        background-color: $bg-social;
+                        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+                        border-radius: 0.5rem;
+                        color: black;
+                     }
+                     .fa-instagram {
+                        background-color: $bg-social;
+                        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+                        border-radius: 0.5rem;
+                        color: black;
+                     }
+                     .fa-pinterest {
+                        background-color: $bg-social;
+                        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+                        border-radius: 0.5rem;
+                        color: black;
+                     }
+                     .fa-tumblr {
+                        background-color: $bg-social;
+                        padding: 1.5rem 1.7rem 1.5rem 1.7rem;
+                        border-radius: 0.5rem;
+                        color: black;
+                     }
+                    }
+                    .nav-link {
+                        .fa-facebook-f:hover {
+                            background-color: black;
+                            color:white;
+                        }
+                        .fa-twitter:hover {
+                            background-color: black;
+                            color:white;
+                        }
+                        .fa-instagram:hover {
+                            background-color: black;
+                            color:white;
+                        }
+                        .fa-pinterest:hover {
+                            background-color: black;
+                            color:white;
+                        }
+                        .fa-tumblr:hover {
+                            background-color: black;
+                            color:white;
+                        }
+                    }
+                }
+              
+            }
+        }
+    }
+}
