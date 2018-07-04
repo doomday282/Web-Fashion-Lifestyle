@@ -2,11 +2,14 @@ $icon-color:#4e4e4e;
 $hover: rgb(250, 146, 26);
 $background: #f8f8f8;
 $shadow: rgb(236, 236, 236);
-$bg-social:  rgb(177, 177, 177);
+$bg-social: #e2e2e2;
+$gold:#c3a26e;
+$bg-email-address: #e8e8e8;
+$bg-number: #c4c4c4;
 
 body {
     font-size: 0.9rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: $background;
 }
 
@@ -52,7 +55,7 @@ div#slide-show {
             height: auto;
            left:50%;
            top: 0;     
-           transform: translate(-50%);
+           transform: translate(-50%);         
             .img-slide {
                 .img {
                     height: 38rem;
@@ -75,13 +78,23 @@ div#content {
                 
                 .post-content {
                     position: relative;
+                    .boring-space {
+                        height: 11rem;
+                    }
                     .info-post {
+                        .tiny-title {
+                            font-size: 0.7rem;
+                            color: $gold;
+                        }
                         position: absolute;
-                        top: 90%;
+                        top: 86%;
                         left: 50%;
                         width: 80%;
                         height: auto;
                         transform: translate(-50%,-50%);
+                        .tiny-info {
+                            font-size: 0.8rem;
+                        }
                     }
                 }
             }
@@ -119,6 +132,9 @@ div#content {
         }
         .side-bar {
             .row {
+                .button-title {
+                    padding: .85rem 0 0.85rem 0;
+                }
                 .social {
                     .nav-link {
                      .fa-facebook-f {
@@ -177,6 +193,124 @@ div#content {
                 }
               
             }
+            .join-the-family {
+               .bg-email {
+                position: relative;
+                background-color: $bg-email-address;
+                padding: 3rem 0.5rem 3rem 0.5rem;
+                .title-email {
+                    font-size: 1.4rem;
+                }
+                .email-icon {
+                    position: absolute;
+                    top: 52%;
+                    left: 80%;
+                    transform: translate(-50%,50%);
+                    img {
+                        width: 4.8rem;
+                        height: auto;
+                    } 
+                }
+               }
+            }
+            .articles {
+                .img-album {
+                    position: relative;
+                    img {
+                        width: auto;
+                        height: 5rem;
+                    }
+                    .some-news {
+                        position: absolute;
+                        top:8%;
+                        left:40%;
+                        transform: translate(-50%,-50%);
+                        padding: 0.35rem 0.9rem 0.35rem 0.9rem;
+                        border-radius: 2rem;                       
+                        background-color: black;
+                    }
+                    .some-news-two {
+                        position: absolute;
+                        top:8%;
+                        left:40%;
+                        transform: translate(-50%,-50%);
+                        padding: 0.35rem 0.8rem 0.35rem 0.8rem;
+                        border-radius: 2rem;                       
+                        background-color: black;
+                    }
+                    .some-news-three {
+                        position: absolute;
+                        top:8%;
+                        left:40%;
+                        transform: translate(-50%,-50%);
+                        padding: 0.35rem 0.8rem 0.35rem 0.8rem;
+                        border-radius: 2rem;                       
+                        background-color: black;
+                    }
+                }
+                .text-big {
+                    font-size: 1.1rem;
+                }
+                .tiny-text {
+                    font-size: 0.8rem;
+                }
+            }
+            .categories-list {
+                .bg-number {
+                    background-color: $bg-number;
+                    padding: 0.2rem 0.6rem 0.2rem 0.6rem;
+                    border-radius: 0.3rem;
+                    font-size: 0.75rem;
+                    
+                }
+            }
+            .featured-list-one {
+                .img-with-text {
+                    position: relative;
+                    .overlay {
+                        position: absolute;
+                        top:50%;
+                        left:56%;
+                        transform: translate(-50%,-50%);
+                        background: linear-gradient(rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.600));
+                        width: 21.7rem;
+                        height: 16rem;                        
+                    }
+                    .text-on-img {
+                        position: absolute;
+                        top: 80%;
+                        left: 40%;
+                        transform: translate(-23%,-50%);    
+                        .text-title {
+                            font-size: 1.2rem;
+                        }       
+                        .sub-text {
+                            color: rgba(255, 255, 255, 0.644);
+                        }           
+                    }
+                }
+            }
+            .featured-list-two {
+                .img-with-text {   
+                    position: relative;                                   
+                    .img {                        
+                       width: 100%;
+                       height: auto;
+                       padding-bottom: 40%;
+                       background-position: center;
+                       background-size: cover;                       
+                    }
+                    .text-on-img {
+                        position: absolute;
+                        top:50%;
+                        left:56%;
+                        transform: translate(-50%,-50%);
+                        background-color: white;
+                        padding: 0.5rem 1.5rem 0.5rem 1.5rem; 
+                    }
+                }
+            }
+            
         }
     }
 }

@@ -1,6 +1,6 @@
 body {
   font-size: 0.9rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Barlow Semi Condensed', sans-serif;
   background-color: #f8f8f8; }
 
 section#navbar .container .row .social .nav a {
@@ -38,13 +38,20 @@ div#content {
     box-shadow: 0rem 0rem 1rem 0.1rem #ececec; }
     div#content .container .row .post .post-content {
       position: relative; }
+      div#content .container .row .post .post-content .boring-space {
+        height: 11rem; }
       div#content .container .row .post .post-content .info-post {
         position: absolute;
-        top: 90%;
+        top: 86%;
         left: 50%;
         width: 80%;
         height: auto;
         transform: translate(-50%, -50%); }
+        div#content .container .row .post .post-content .info-post .tiny-title {
+          font-size: 0.7rem;
+          color: #c3a26e; }
+        div#content .container .row .post .post-content .info-post .tiny-info {
+          font-size: 0.8rem; }
   div#content .container .sub-post .sub-post-content {
     position: relative;
     height: 24rem;
@@ -66,28 +73,30 @@ div#content {
     background-color: white !important;
     box-shadow: 0rem 0rem 1rem 0.1rem #ececec;
     font-size: 0.9rem; }
+  div#content .container .side-bar .row .button-title {
+    padding: .85rem 0 0.85rem 0; }
   div#content .container .side-bar .row .social .nav-link .fa-facebook-f {
-    background-color: #b1b1b1;
+    background-color: #e2e2e2;
     padding: 1.5rem 1.75rem 1.5rem 1.75rem;
     border-radius: 0.5rem;
     color: black; }
   div#content .container .side-bar .row .social .nav-link .fa-twitter {
-    background-color: #b1b1b1;
+    background-color: #e2e2e2;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     border-radius: 0.5rem;
     color: black; }
   div#content .container .side-bar .row .social .nav-link .fa-instagram {
-    background-color: #b1b1b1;
+    background-color: #e2e2e2;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     border-radius: 0.5rem;
     color: black; }
   div#content .container .side-bar .row .social .nav-link .fa-pinterest {
-    background-color: #b1b1b1;
+    background-color: #e2e2e2;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     border-radius: 0.5rem;
     color: black; }
   div#content .container .side-bar .row .social .nav-link .fa-tumblr {
-    background-color: #b1b1b1;
+    background-color: #e2e2e2;
     padding: 1.5rem 1.7rem 1.5rem 1.7rem;
     border-radius: 0.5rem;
     color: black; }
@@ -106,3 +115,89 @@ div#content {
   div#content .container .side-bar .row .social .nav-link .fa-tumblr:hover {
     background-color: black;
     color: white; }
+  div#content .container .side-bar .join-the-family .bg-email {
+    position: relative;
+    background-color: #e8e8e8;
+    padding: 3rem 0.5rem 3rem 0.5rem; }
+    div#content .container .side-bar .join-the-family .bg-email .title-email {
+      font-size: 1.4rem; }
+    div#content .container .side-bar .join-the-family .bg-email .email-icon {
+      position: absolute;
+      top: 52%;
+      left: 80%;
+      transform: translate(-50%, 50%); }
+      div#content .container .side-bar .join-the-family .bg-email .email-icon img {
+        width: 4.8rem;
+        height: auto; }
+  div#content .container .side-bar .articles .img-album {
+    position: relative; }
+    div#content .container .side-bar .articles .img-album img {
+      width: auto;
+      height: 5rem; }
+    div#content .container .side-bar .articles .img-album .some-news {
+      position: absolute;
+      top: 8%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      padding: 0.35rem 0.9rem 0.35rem 0.9rem;
+      border-radius: 2rem;
+      background-color: black; }
+    div#content .container .side-bar .articles .img-album .some-news-two {
+      position: absolute;
+      top: 8%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      padding: 0.35rem 0.8rem 0.35rem 0.8rem;
+      border-radius: 2rem;
+      background-color: black; }
+    div#content .container .side-bar .articles .img-album .some-news-three {
+      position: absolute;
+      top: 8%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      padding: 0.35rem 0.8rem 0.35rem 0.8rem;
+      border-radius: 2rem;
+      background-color: black; }
+  div#content .container .side-bar .articles .text-big {
+    font-size: 1.1rem; }
+  div#content .container .side-bar .articles .tiny-text {
+    font-size: 0.8rem; }
+  div#content .container .side-bar .categories-list .bg-number {
+    background-color: #c4c4c4;
+    padding: 0.2rem 0.6rem 0.2rem 0.6rem;
+    border-radius: 0.3rem;
+    font-size: 0.75rem; }
+  div#content .container .side-bar .featured-list-one .img-with-text {
+    position: relative; }
+    div#content .container .side-bar .featured-list-one .img-with-text .overlay {
+      position: absolute;
+      top: 50%;
+      left: 56%;
+      transform: translate(-50%, -50%);
+      background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+      width: 21.7rem;
+      height: 16rem; }
+    div#content .container .side-bar .featured-list-one .img-with-text .text-on-img {
+      position: absolute;
+      top: 80%;
+      left: 40%;
+      transform: translate(-23%, -50%); }
+      div#content .container .side-bar .featured-list-one .img-with-text .text-on-img .text-title {
+        font-size: 1.2rem; }
+      div#content .container .side-bar .featured-list-one .img-with-text .text-on-img .sub-text {
+        color: rgba(255, 255, 255, 0.644); }
+  div#content .container .side-bar .featured-list-two .img-with-text {
+    position: relative; }
+    div#content .container .side-bar .featured-list-two .img-with-text .img {
+      width: 100%;
+      height: auto;
+      padding-bottom: 40%;
+      background-position: center;
+      background-size: cover; }
+    div#content .container .side-bar .featured-list-two .img-with-text .text-on-img {
+      position: absolute;
+      top: 50%;
+      left: 56%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      padding: 0.5rem 1.5rem 0.5rem 1.5rem; }
