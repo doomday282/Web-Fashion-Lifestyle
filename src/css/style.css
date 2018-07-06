@@ -7,9 +7,16 @@ section#navbar .container .row .social .nav a {
   text-decoration: none;
   color: #4e4e4e; }
   section#navbar .container .row .social .nav a .fab {
-    font-size: 1.3rem; }
+    font-size: 1rem; }
+  section#navbar .container .row .social .nav a .fab:hover {
+    color: #fa921a; }
   section#navbar .container .row .social .nav a .fas {
-    font-size: 1.3rem; }
+    font-size: 1rem; }
+  section#navbar .container .row .social .nav a .fas:hover {
+    color: #fa921a; }
+
+section#navbar .container .main-menu .col-2 {
+  border-bottom: 2px solid #4e4e4e; }
 
 section#navbar .container .main-menu .menu .nav-link {
   color: #4e4e4e; }
@@ -201,3 +208,55 @@ div#content {
       transform: translate(-50%, -50%);
       background-color: white;
       padding: 0.5rem 1.5rem 0.5rem 1.5rem; }
+  div#content .container .side-bar .facebook-input {
+    position: relative; }
+    div#content .container .side-bar .facebook-input .banner-facebook {
+      width: 100%;
+      height: auto; }
+    div#content .container .side-bar .facebook-input .avatar-facebook {
+      width: 3.5rem;
+      height: auto;
+      position: absolute;
+      top: 30%;
+      left: 25.5%;
+      transform: translate(-50%, -50%);
+      padding: 2px; }
+    div#content .container .side-bar .facebook-input .button-like-page {
+      position: absolute;
+      top: 80%;
+      left: 28%;
+      transform: translate(-50%, -50%);
+      padding: 0.2rem 0.8rem 0.2rem 0.8rem; }
+      div#content .container .side-bar .facebook-input .button-like-page i {
+        color: #4267b2; }
+    div#content .container .side-bar .facebook-input .button-shop-now {
+      position: absolute;
+      top: 80%;
+      left: 70%;
+      transform: translate(5%, -50%);
+      padding: 0.2rem 0.8rem 0.2rem 0.8rem; }
+    div#content .container .side-bar .facebook-input .page-name-facebook {
+      position: absolute;
+      top: 14%;
+      left: 49%;
+      transform: translate(-50%, -50%);
+      font-size: 1.3rem;
+      text-shadow: 2px 2px 3px black; }
+    div#content .container .side-bar .facebook-input .like {
+      position: absolute;
+      top: 31%;
+      left: 39.5%;
+      transform: translate(-50%, -50%);
+      font-size: 1rem;
+      text-shadow: 2px 2px 3px black; }
+  div#content .container .side-bar .bottom-facebook-input .bg-content .content {
+    background-color: #f6f7f9;
+    border: 1px solid #e9ebee;
+    padding: 0.5rem; }
+    div#content .container .side-bar .bottom-facebook-input .bg-content .content .blah {
+      background-color: #ffffff;
+      border: 1px solid #e9ebee;
+      padding: 0.5rem;
+      box-shadow: 0px 1px 2px 1px #e9ebee;
+      border-radius: 0.3rem;
+      font-size: 0.8rem; }
