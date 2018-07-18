@@ -393,3 +393,18 @@ div#content {
         }
     }
 }
+
+section#album-bottom {
+    .container-fluid {
+       
+        .nav{
+            .nav-link {
+                .fix-size {
+                    width: 14.6rem;
+                    height: auto;
+                }
+            }
+        }
+        
+    }
+}
