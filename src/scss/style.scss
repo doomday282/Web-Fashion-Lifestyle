@@ -183,22 +183,27 @@ div#content {
                         .fa-facebook-f:hover {
                             background-color: black;
                             color:white;
+                            transition: 0.5s
                         }
                         .fa-twitter:hover {
                             background-color: black;
                             color:white;
+                            transition: 0.5s
                         }
                         .fa-instagram:hover {
                             background-color: black;
                             color:white;
+                            transition: 0.5s
                         }
                         .fa-pinterest:hover {
                             background-color: black;
                             color:white;
+                            transition: 0.5s
                         }
                         .fa-tumblr:hover {
                             background-color: black;
                             color:white;
+                            transition: 0.5s
                         }
                     }
                 }
@@ -395,16 +400,162 @@ div#content {
 }
 
 section#album-bottom {
-    .container-fluid {
-       
+    .container-fluid {       
+     .bottom {
+        position: relative;
         .nav{
             .nav-link {
+               
                 .fix-size {
                     width: 14.6rem;
                     height: auto;
+
+                }
+             
+            }
+        }
+        .hastag-instagram {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: white;
+            padding: 1rem 2rem 1rem 2rem;
+            font-size: 1.1rem;
+            box-shadow: 0px 0px 18px 12px rgba(0,0,0, .2);
+        }
+     }
+        
+    }
+}
+section#information {
+    .container {
+        .fix-size {
+            .date-post {
+                font-size: 0.7rem;
+            }
+        }   
+        .subcribe-follow {
+            .social-first {
+                font-size: 1rem;
+                .fa-facebook-f {
+                  
+                    color: black;
+                    background-color: $bg-social;
+                    padding: 1.3rem 1.6rem 1.3rem 1.6rem;
+                    border-radius: 0.4rem;
+                }
+                .fa-twitter {
+                    color: black;
+                    background-color: $bg-social;
+                    padding: 1.3rem 1.25rem 1.3rem 1.25rem;
+                    border-radius: 0.4rem;
+                }
+                .fa-instagram {
+                    color: black;
+                    background-color: $bg-social;
+                    padding: 1.3rem 1.3rem 1.3rem 1.3rem;
+                    border-radius: 0.4rem;
+                }
+                .fa-pinterest {
+                    color: black;
+                    background-color: $bg-social;
+                    padding: 1.3rem 1.3rem 1.3rem 1.3rem;
+                    border-radius: 0.4rem;
+                }
+                .fa-facebook-f:hover {
+                    color:white;
+                    background-color: black;
+                    transition: 0.5s
+                }
+                .fa-twitter:hover {
+                    color: white;
+                    background-color: black;
+                    transition: 0.5s
+                }
+                .fa-instagram:hover {
+                    color: white;
+                    background-color: black;
+                    transition: 0.5s
+                }
+                .fa-pinterest:hover {
+                    color: white;
+                    background-color: black;
+                    transition: 0.5s
+                }
+            }                           
+            .social-secondary {
+                font-size: 1rem;
+                .fa-heart {
+                    color: black;
+                    background-color: $bg-social;
+                    padding: 1.3rem 1.35rem 1.3rem 1.35rem;    
+                    border-radius: 0.4rem;                
+                }
+                .fa-google-plus-g {
+                    color: black;
+                    background-color: $bg-social;
+                    padding: 1.3rem 1.2rem 1.3rem 1.1rem;
+                    border-radius: 0.4rem;
+                }
+                .fa-youtube {
+                    color: black;
+                    background-color: $bg-social;
+                    padding: 1.3rem 1.2rem 1.3rem 1.2rem;
+                    border-radius: 0.4rem;
+                }
+                .fa-rss {
+                    color: black;
+                    background-color: $bg-social;
+                    padding: 1.3rem 1.35rem 1.3rem 1.35rem;
+                    border-radius: 0.4rem;
+                }
+                .fa-heart:hover {
+                    color: white;
+                    background-color: black;
+                    transition: 0.5s
+                }
+                .fa-google-plus-g:hover {
+                    color: white;
+                    background-color: black;
+                    transition: 0.5s
+                }
+                .fa-youtube:hover {
+                    color: white;
+                    background-color: black;
+                    transition: 0.5s
+                }
+                .fa-rss:hover {
+                    color: white;
+                    background-color: black;
+                    transition: 0.5s
                 }
             }
         }
-        
+        .more-information {
+            .row {
+                a {
+                    text-decoration-line: none;
+                    color: #c3a26e;
+                }
+            }
+        }
+    }
+}
+
+section#footer {
+    .social-footer {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.438);
+        padding-bottom: 2rem;
+        i{
+            font-size: 1.5rem;
+            color: white;
+        }
+        .icon-title {            
+            letter-spacing: 3px;           
+        }
+    }
+    .ps {
+        font-family: 'PT Serif Caption', serif;
     }
 }
